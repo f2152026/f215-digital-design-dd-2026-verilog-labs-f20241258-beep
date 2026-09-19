@@ -8,12 +8,15 @@
 //           re-simulate with the same tb.v and compare.
 
 module FA_Gate(
+
   input  a,
   input  b,
   input  cin,
   output sum,
   output cout
+
 );
+
   wire ps, pc1, pc2;
 
   xor (ps,  a,   b);

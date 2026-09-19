@@ -6,11 +6,13 @@
 // exact same testbench and stimulus each time.
 
 module dut(
+
   input  [63:0] a,
   input  [63:0] b,
   input         cin,
   output [63:0] sum,
   output        cout
+
 );
 
   // ---- Option 1: 64-bit ripple-carry adder ----
